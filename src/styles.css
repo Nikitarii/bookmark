@@ -1,2 +1,98 @@
 /* You can add global styles to this file, and also import other style files */
 @import 'bootstrap';
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+
+body {
+    font-family: 'Rubik', sans-serif;
+    color: hsl(229, 31%, 21%);
+} 
+
+.px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.py-6 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+.pxy-1 {
+    padding: 2% 28%;
+}
+.color1 {
+    color: #ffffff;
+}
+.fz-1 {
+    font-size: 10px;
+}
+.fz-2 {
+    font-size: 12px;
+}
+.let-sp-1 {
+    letter-spacing: 4px;
+}
+.w-40 {
+    width: 40%;
+}
+.ht-50 {
+    height: 50px;
+}
+.border-bottom {
+    border-bottom: none !important
+}
+
+.justify-content-right {
+    justify-content: right !important;
+}
+
+.item-link {
+    text-transform: uppercase;
+    color: hsl(229, 31%, 21%);
+}
+
+.text-end {
+    text-align: left !important;
+    padding-left: 1.5rem;
+}
+
+.button-admin {
+    background-color: hsl(0, 94%, 66%);
+    border: 1px solid hsl(0, 94%, 66%);
+    color: #ffffff;
+}
+
+.content_text, .features_text, .colot-t {
+    color: hsl(229, 8%, 60%);
+}
+
+.btn_primary {
+    background-color: hsl(231, 69%, 60%);
+    border: 1px solid hsl(231, 69%, 60%);
+    color: #ffffff;
+    margin-right: 15px;
+}
+.btn_secondary {
+    background-color: #e9ebf3;
+    border: 1px solid #e9ebf3;
+    color: hsl(229, 31%, 21%);
+}
+.bx-sw-1 {
+    box-shadow: 0 8px 10px -3px rgb(3 6 5 / 13%);
+}
+.bx-sw-2 {
+    box-shadow: 0 10px 10px 5px rgb(0 0 0 / 5%);
+}
+.features, .pricing, .questions, .contacts {
+    text-align: center;
+}
+.card {
+    border: none !important;
+}
+.contacts {
+    background-color: #5266df;
+}
+.footer {
+    background-color: #242946;
+}
